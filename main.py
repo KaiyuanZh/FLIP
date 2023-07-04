@@ -48,7 +48,7 @@ if __name__ == "__main__":
     parser.add_argument("--params", dest="params")
     args = parser.parse_args()
     with open(f"./{args.params}", "r") as f:
-        params_loaded = yaml.load(f)
+        params_loaded = yaml.load(f, Loader=yaml.FullLoader)
     current_time = datetime.datetime.now().strftime("%b.%d_%H.%M.%S")
     if params_loaded["type"] == config.TYPE_CIFAR:
         helper = ImageHelper(
