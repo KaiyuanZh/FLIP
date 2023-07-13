@@ -20,8 +20,9 @@ Table of Contents
 - [Acknowledgement](#Acknowledgement)
 
 ## Overview
-This is the PyTorch implementation for ICLR 2023 paper "[FLIP: A Provable Defense Framework for Backdoor Mitigation in Federated Learning](https://arxiv.org/abs/2210.12873)". This paper also wins a <span style="color:red">**Best Paper Award**</span> at [ECCV 2022 AROW Workshop](https://eccv22-arow.github.io/).  
-\[[openreview](https://openreview.net/pdf?id=Xo2E217_M4n)\] | \[[arXiv](https://arxiv.org/pdf/2210.12873.pdf)\] | \[[workshop slides](https://kaiyuanzhang.com/slides/FLIP_slides.pdf)\]
+- This is the PyTorch implementation for ICLR 2023 paper "[FLIP: A Provable Defense Framework for Backdoor Mitigation in Federated Learning](https://arxiv.org/abs/2210.12873)".  
+- This paper also wins a [Best Paper Award](https://eccv22-arow.github.io/) :trophy: at ECCV 2022 AROW Workshop.  
+- \[[openreview](https://openreview.net/pdf?id=Xo2E217_M4n)\] | \[[arXiv](https://arxiv.org/pdf/2210.12873.pdf)\] | \[[workshop slides](https://kaiyuanzhang.com/slides/FLIP_slides.pdf)\]
 
 <img src="FLIP_cover.jpg" width="900px"/>
 
@@ -29,6 +30,7 @@ This is the PyTorch implementation for ICLR 2023 paper "[FLIP: A Provable Defens
 - Python >= 3.7.10
 - PyTorch >= 1.7.1
 - TorchVisison >= 0.8.2
+- PyYAML >= 6.0
 
 ## Experiments  
 - Pre-trained clean models prepared in the directory `./saved_models/`.
