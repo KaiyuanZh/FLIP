@@ -29,7 +29,7 @@ Table of Contents
 ## Requirements
 - Python >= 3.7.10
 - PyTorch >= 1.7.1
-- TorchVisison >= 0.8.2
+- TorchVision >= 0.8.2
 - PyYAML >= 6.0
 
 ## Experiments  
