@@ -27,6 +27,7 @@ Table of Contents
 <img src="FLIP_cover.jpg" width="900px"/>
 
 ## Requirements
+
 - Python >= 3.7.10
 - PyTorch >= 1.7.1
 - TorchVision >= 0.8.2
@@ -40,7 +41,7 @@ Table of Contents
 ### Install required packages
 ```bash
 # Create python environment (optional)
-conda create -n flip python=3.7
+conda env create -f environment.yml
 source activate flip
 ```
 
