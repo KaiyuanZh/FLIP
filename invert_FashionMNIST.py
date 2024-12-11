@@ -261,6 +261,7 @@ class Trigger:
             indices = np.where(loss_monitor == 1)[0]
             loss_monitor[indices] = 0
 
+        self.model.train()
         return mask_best, pattern_best, loss_monitor
 
 
@@ -494,6 +495,7 @@ class TriggerCombo:
                     + f"reg_best: ({reg_best[0]:.2f}, {reg_best[1]:.2f})"
                 )
 
+        self.model.train()
         return mask_best, pattern_best
 
 
