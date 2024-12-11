@@ -869,6 +869,7 @@ def trigger_fast_train(helper, model, data_iterator, start_epoch, agent_name_key
                                     count[cb] += 1
                         mask_size_list.append(
                             list(np.sum(3 * np.abs(init_mask), axis=(1, 2, 3)))
+                        )
 
                     if (step - max_warmup_steps) % warmup_steps == warmup_steps - 1:
                         if len(mask_size_list) <= 0:
